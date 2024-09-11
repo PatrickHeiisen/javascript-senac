@@ -43,7 +43,7 @@ git config --global user.email "seuemail@email.com"
 git clone url_do_repositório
 git add (adiciona ao repositorio local)
 git commit -m (documenta as alteraçoes)
-git push ()
+git push
 
 Gerar token GitHub
 1) Settings
