@@ -37,16 +37,19 @@ Lógica de programação
 
 GIT e GITHUB
 
-Comandos básicos do git:
-git config --global user.name "Seu nome"
-git config --global user.email "seuemail@email.com"
-git clone url_do_repositório
-git add (adiciona ao repositorio local)
-git commit -m (documenta as alteraçoes)
-git push
+Comandos Basicos do Git -->>
+	git config --global user.name "Seu nome"
+	git config --global user.email "seuemail@email.com"
+	git clone url_do_repositório (clonar repositorio)
+	git status (verificar o status do repositorio local)
+	git add . (adiciona ao repositorio local)
+	git commit -m "Tutorial"(documenta as alterações)
+	git push (enviar ao repositorio GitHub)
+	git pull (sincroniza as informações do repositorio)
 
 Gerar token GitHub
 1) Settings
 2) Developer Settings
 3) Token classic
 4) Gerar o token selecionando tudo, guardar o token
+
