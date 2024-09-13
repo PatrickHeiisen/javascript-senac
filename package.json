@@ -1,0 +1,19 @@
+{
+  "name": "javascript-senac",
+  "version": "1.0.0",
+  "description": "Tutorial de logica de programação com javascript",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickHeiisen/javascript-senac.git"
+  },
+  "author": "Patrick G Correia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatrickHeiisen/javascript-senac/issues"
+  },
+  "homepage": "https://github.com/PatrickHeiisen/javascript-senac#readme"
+}
