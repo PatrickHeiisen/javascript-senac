@@ -25,18 +25,17 @@ electron
 # testes
 
 # pi
-___________________________________
+-------------------------------------------------------------------------------
 Lógica de programação
+	- variáveis
+	- operadores
+	- algorítmo
+	- estruturas de controle
+	- POO
+	- estruturas de dados
 
-- variáveis
-- operadores
-- algorítmo
-- estruturas de controle
-- POO
-- estruturas de dados
-
+-------------------------------------------------------------------------------
 GIT e GITHUB
-
 Comandos Basicos do Git -->>
 	git config --global user.name "Seu nome"
 	git config --global user.email "seuemail@email.com"
@@ -46,10 +45,65 @@ Comandos Basicos do Git -->>
 	git commit -m "Tutorial"(documenta as alterações)
 	git push (enviar ao repositorio GitHub)
 	git pull (sincroniza as informações do repositorio)
+------------------------------------------------------------------------------
+Comandos Basicos do MS-Dos
+	cls -> limpa a tela
+	dir -> listar arquivos e diretorios
+	cd nome_diretorio -> entra no diretorio
+	cd .. -> voltar para ao diretorio anterior
+-------------------------------------------------------------------------------
+
+cls limpa o terminal do visual code.....
 
 Gerar token GitHub
 1) Settings
 2) Developer Settings
 3) Token classic
 4) Gerar o token selecionando tudo, guardar o token
+
+Boas Praticas da Programação:
+1) - Cabeçalho de documentação -->> Comentario no codigo
+2) - Nomes de arquivos, variaveis, funcoes, classes, etc...
+	Regras(clean code)
+	(Declarar nomes que tenham relaçao com seu codigo)
+3) - 
+
+Node.js Plataforma que permite execução do JavaScript
+
+Comando Basicos Node:
+	node -v (Mostra a versão)
+
+Gerenciador de Pacotes:
+	Site: npm
+	npm -v (versão de pacotes)
+	npm ls (lista pacotes instalados)
+	npm init (iniciar um novo projeto JavaScript)
+	
+Variaveis e Constantes: 
+
+Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante, ele não pode ser alterado durante a execução do programa.
+
+Por que usar constantes?
+Segurança: Se você sabe que um valor não deve ser alterado em seu programa, usar uma constante evita erros.
+Legibilidade: Quando você usa uma constante, deixa claro para quem está lendo o código que aquele valor é fixo e importante.
+Boas práticas: Em muitos casos, é recomendado usar constantes sempre que possível para valores que não precisam mudar, facilitando a manutenção do código.
+
+Uma variável é um espaço na memória do computador onde armazenamos dados que podem ser utilizados e modificados durante a execução de um programa. O nome "variável" vem do fato de que o valor armazenado pode variar ao longo do tempo, conforme o programa roda.
+
+Por que usar variáveis?
+Para guardar informações que você vai precisar mais tarde.
+Para realizar cálculos ou tomar decisões baseadas em diferentes valores.
+
+Nas linguagem de programação as variaveis sao estaticas e dinamicas
+
+Existem tres tipos de variaveis ->  String, number, boolean 
+
+--------------------------------------------------------------------------------------
+Comandos JavaScript:
+
+	console.log() -> Escreve no console
+	console.clear() -> Limpa  tela
+	const -> Criar uma constante
+	let -> criar uma variavel
+	typeof() -> verifica o tipo de variavel
 
