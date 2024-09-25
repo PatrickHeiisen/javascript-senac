@@ -107,3 +107,10 @@ Comandos JavaScript:
 	let -> criar uma variavel
 	typeof() -> verifica o tipo de variavel
 
+MANDAMENTO DA PROGRAMAÇÃO:
+1) - Desenvolver sempre pensando na experiencia do usuario
+2) - Usar o minimo de codigo (variaveis, operadores, estrutura de controles)
+3) - Entender o Problema - 
+Algoritmo ("receita de bolo")
+variaveis -> entrada -> processamento -> saida
+4) - 
