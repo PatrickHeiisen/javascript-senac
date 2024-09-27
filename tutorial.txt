@@ -78,7 +78,10 @@ Gerenciador de Pacotes:
 	npm -v (versão de pacotes)
 	npm ls (lista pacotes instalados)
 	npm init (iniciar um novo projeto JavaScript)
-	
+	npm i nome_do_pacote (instalar um novo pacote)
+	npm r nome_do_pacote (remove pacotes)	
+
+
 Variaveis e Constantes: 
 
 Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante, ele não pode ser alterado durante a execução do programa.
