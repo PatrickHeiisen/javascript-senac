@@ -1,3 +1,0 @@
-TextDecoderStreamteste
-TextDecoderStream
-
