@@ -109,6 +109,7 @@ Comandos JavaScript:
 	const -> Criar uma constante
 	let -> criar uma variavel
 	typeof() -> verifica o tipo de variavel
+	\n -> Quebra linha
 
 MANDAMENTO DA PROGRAMAÇÃO:
 1) - Desenvolver sempre pensando na experiencia do usuario
