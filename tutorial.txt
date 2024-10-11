@@ -118,3 +118,26 @@ MANDAMENTO DA PROGRAMAÇÃO:
 Algoritmo ("receita de bolo")
 variaveis -> entrada -> processamento -> saida
 4) - 
+
+Estruturas de Controle:
+- condicionais
+- laços de repetição
+
+Estruturas de Controle Condicionais:
+if (condição){
+	// condição verdadeira
+}
+
+if (condição){
+	// condição
+}else{
+	// condção falsa
+}
+
+Observação:
+- Uma condição nunca pode ser verdeira e falsa simultaneamente
+- No uso do if-else sempre uma das condições sera processada
+
+
+
+

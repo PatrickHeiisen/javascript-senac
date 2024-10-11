@@ -5,6 +5,7 @@
 
 // importar a biblioteca
 const input = require('readline-sync')
+const colors = require('colors')
 
 // variaveis
 let valor1, valor2, valor3, media
@@ -21,5 +22,10 @@ valor3 = Number(input.question("Digite o terceiro valor: "))
 // processamento
 media = (valor1 + valor2 + valor3) / 3
 console.log()
-console.log(`Media: ${media.toFixed(1)}`)
+console.log(`Sua media nas notas foi de ${media.toFixed(1)}`)
 
+if (media >= 6){
+    console.log("Aluno Aprovado!!!".blue)
+}else{
+    console.log("Aluno Reprovado!!!".red)
+}
