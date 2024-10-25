@@ -174,3 +174,18 @@ Por exemplo, se tivermos uma expressão A, !A será verdadeiro se A for falso.
 O operador NOT é usado para inverter o valor booleano de uma expressão.
 Se a expressão for verdadeira, o resultado será falso. Se a expressão for falsa, o resultado será verdadeiro.
 Exemplo: if (!isLoggedIn) {}
+
+Estrutura de Controle - laços de repetição
+
+for (let i = 1; i < 10; i++){
+
+}
+// Laço com numero de repetições definidas
+// let i = 1 (inicio)
+// i < 10 (condição)
+// i++ (incremento) i-- (decremento)
+
+Uso do laço for
+1) Percorrer uma estrutura de dados (importante)
+2) Simplificar o codigo
+3) Fazer calculos levando em conta a variavel interna do laço
