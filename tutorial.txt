@@ -1,9 +1,3 @@
-usuário: t-334031
-senha: G1JTXfK8
-
-usuário: t-354645
-senha: uX34UgPh
-
 # Lógica de programação
 
 # Photshop
@@ -51,9 +45,24 @@ Comandos Basicos do MS-Dos
 	dir -> listar arquivos e diretorios
 	cd nome_diretorio -> entra no diretorio
 	cd .. -> voltar para ao diretorio anterior
+	cls limpa o terminal do visual code.....
 -------------------------------------------------------------------------------
+Gerenciador de Pacotes:
+	Site: npm
+	npm -v (versão de pacotes)
+	npm ls (lista pacotes instalados)
+	npm init (iniciar um novo projeto JavaScript)
+	npm i nome_do_pacote (instalar um novo pacote)
+	npm r nome_do_pacote (remove pacotes)	
+-------------------------------------------------------------------------------
+Comandos JavaScript:
 
-cls limpa o terminal do visual code.....
+	console.log() -> Escreve no console
+	console.clear() -> Limpa  tela
+	const -> Criar uma constante
+	let -> criar uma variavel
+	typeof() -> verifica o tipo de variavel
+	\n -> Quebra linha
 
 Gerar token GitHub
 1) Settings
@@ -73,15 +82,6 @@ Node.js Plataforma que permite execução do JavaScript
 Comando Basicos Node:
 	node -v (Mostra a versão)
 
-Gerenciador de Pacotes:
-	Site: npm
-	npm -v (versão de pacotes)
-	npm ls (lista pacotes instalados)
-	npm init (iniciar um novo projeto JavaScript)
-	npm i nome_do_pacote (instalar um novo pacote)
-	npm r nome_do_pacote (remove pacotes)	
-
-
 Variaveis e Constantes: 
 
 Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante, ele não pode ser alterado durante a execução do programa.
@@ -100,16 +100,6 @@ Para realizar cálculos ou tomar decisões baseadas em diferentes valores.
 Nas linguagem de programação as variaveis sao estaticas e dinamicas
 
 Existem tres tipos de variaveis ->  String, number, boolean 
-
---------------------------------------------------------------------------------------
-Comandos JavaScript:
-
-	console.log() -> Escreve no console
-	console.clear() -> Limpa  tela
-	const -> Criar uma constante
-	let -> criar uma variavel
-	typeof() -> verifica o tipo de variavel
-	\n -> Quebra linha
 
 MANDAMENTO DA PROGRAMAÇÃO:
 1) - Desenvolver sempre pensando na experiencia do usuario
@@ -189,3 +179,14 @@ Uso do laço for
 1) Percorrer uma estrutura de dados (importante)
 2) Simplificar o codigo
 3) Fazer calculos levando em conta a variavel interna do laço
+
+While (condição){
+	//condição
+}
+do {
+	// executa o codigo uma vez independente da condição e depois analisa
+	a condição
+} While (condição)
+
+As estruturas while e do-while são estruturas de repetição infinitas, ou seja enquanto
+a condição for verdadeira o codigo interno sera repetido infinitamente
