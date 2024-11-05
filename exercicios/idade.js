@@ -16,5 +16,5 @@ if (idade > 18){
     console.log("Menor de Idade!!!")
 }
 
-console.log(`Idade: ${idade}`)
+console.log(`Idade: ${idade} anos`)
 
