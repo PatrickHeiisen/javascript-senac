@@ -217,8 +217,16 @@ Abstração
 Herança
 Poliformismo
 
+Classe modelo (Abstração - Herança - Poliformismo)
+- Biblioteca nativa do js
+- Biblioteca instalada do node
+- Criada pelo usuario usando class
+
+Observação o ponto "." e usado para acessar atributos e metodos da classe modelo
+
 // segurança
 Encapsulamento
+
 
 Observação:
 Toda classe modelo deve iniciar com letra maiuscula
