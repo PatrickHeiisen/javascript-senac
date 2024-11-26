@@ -240,3 +240,12 @@ objeto (Substantivo)
 Atributo (Adjetivo)
 Metodos (Verbos)
 
+------------------------------------------------------------------------------------
+Estrutura de dados (array, vetor ou lista) e uma forma especial de trabalhar com 
+variaveis podendo armazenar mais de um valor em uma unica variavel para manipular
+os dados de um vetor usamos o indice que inicia em 0 (zero)
+
+Usos do vetor:
+1) Simplificar e minimizar o codigo
+2) Problemas que precisam armazenar dados em uma sequencia (ex: jogo Genius)
+3) Estrutura de dados em operações com o banco de dados
