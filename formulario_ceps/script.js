@@ -12,9 +12,13 @@ function buscarEndereco() {
         })
         .catch(error => console.error('Erro ao buscar o endereço:', error))
 }
-document.getElementById('cadastro').addEventListener('submit', function (e) {
-    e.preventDefault()
+
+document.getElementById('cadastro').addEventListener('submit', function (event) {
+    event.preventDefault()
 
     alert('Cadastro realizado com sucesso!')
     alert('Dados enviados com sucesso.')
+
+    this.reset();
 });
+
