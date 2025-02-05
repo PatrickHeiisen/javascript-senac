@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Endereço por CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <h2>Busca de Endereço por CEP</h2>
+    <form>
+        <label for="cep">CEP:</label>
+        <!--(onblur()) é uma forma para ignorar o input e executar a função-->
+        <input type="text" id="cep" maxlength="9" onblur="buscarEndereco()" required>
+        <br>
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" id="logradouro">
+        <br>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro">
+        <br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade">
+        <br>
+        <label for="uf">UF:</label>
+        <select id="uf">
+            <option value="">Selecione</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select>
+ 
+        <br><br>
+ 
+        <!--submit ativa no html as validações-->
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+ 
+</html>
